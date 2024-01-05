@@ -229,12 +229,12 @@ function App() {
         </button>
       </div>
 
-      <section className="grid-cols-2 grid lg:grid-cols-4 gap-5 lg:gap-0 py-10">
+      <section className="grid-cols-1 md:grid-cols-2 grid lg:grid-cols-4 gap-2 py-10">
         <div>
           <input
             type="text"
             placeholder="Name"
-            className="focus:outline-none border py-5 px-3"
+            className="focus:outline-none border py-5 px-3 w-full lg:w-auto"
             disabled={disableInput}
             ref={nameRef}
           ></input>
@@ -244,7 +244,7 @@ function App() {
           <input
             type="text"
             placeholder="Animal"
-            className="focus:outline-none border py-5 px-3"
+            className="focus:outline-none border py-5 px-3 w-full lg:w-auto"
             disabled={disableInput}
             ref={animalRef}
           ></input>
@@ -254,7 +254,7 @@ function App() {
           <input
             type="text"
             placeholder="Place"
-            className="focus:outline-none border py-5 px-3"
+            className="focus:outline-none border py-5 px-3 w-full lg:w-auto"
             disabled={disableInput}
             ref={placeRef}
           ></input>
@@ -264,7 +264,7 @@ function App() {
           <input
             type="text"
             placeholder="Thing"
-            className="focus:outline-none border py-5 px-3"
+            className="focus:outline-none border py-5 px-3 w-full lg:w-auto"
             disabled={disableInput}
             ref={thingRef}
           ></input>
